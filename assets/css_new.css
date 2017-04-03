@@ -1,6 +1,27 @@
 body {
+  margin: 0 auto;
+  width: 60%;
   font-family: 'Arial, sans-serif';
   background-color: #FEFFF1;
+}
+
+/*section {
+  width: 700px;
+  display: block;
+  vertical-align: top;
+}*/
+
+aside {
+  display: inline-block;
+}
+
+.ingredients-list li {
+  margin: 15px 0px;
+}
+
+input[type="text"], select {
+  display: block;
+  width: 175px;
 }
 
 h1 {
@@ -31,4 +52,33 @@ ol {
 .user_review h4 {
   font-size: 18px;
   font-weight: bold;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a{
+  display: inline-block;
+  padding: 20px;
+}
+
+select {
+  margin: 10px 0;
+  width: 180px;
+}
+
+textarea {
+  width: 350px;
+}
+
+label {
+  display: block;
+}
+
+input[type="submit"] {
+  display: block;
 }
